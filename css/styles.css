@@ -184,7 +184,9 @@ a.nav_right_mail{
     width: 1600px;
     padding-top: 200px;
     padding-bottom: 200px;
-    background-color: var(--bckground-color);
+    background-color: #C4C4C4;
+    background-image:linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(/images/hero/hero.png);
+    background-size: cover;
 }
 .hero_title {
     text-align: center;
