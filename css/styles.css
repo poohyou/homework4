@@ -12,6 +12,7 @@
     --accent-color: #2196F3;
     --bck-portfolio: #F5F4FA;
     --bckground-color: #2F303A;
+    --social-icons: #AFB1B8
 }
 body{
     font-family: 'roboto';
@@ -281,6 +282,7 @@ a.nav_right_mail:hover {
 /* ============================TEAM SECTION ============================*/
 .team {
     background-color: #F5F4FA;;
+    padding-bottom: 94px;
 
 }
 .team_title{
@@ -294,12 +296,10 @@ a.nav_right_mail:hover {
 .team_group {
     display: flex;
     gap: 30px;
-    /* padding-bottom: 94px; */
 }
 
 .team_info {
     padding-top: 30px;
-    padding-bottom: 30px;
     text-align: center;
     background-color: var(--white-color);
 
@@ -317,6 +317,35 @@ a.nav_right_mail:hover {
     font-size: 16px;
     line-height: 1.2;
     text-align: center;
+}
+.team_icons {
+    padding-bottom: 41px;
+    display: flex;
+    margin-top: 16px;
+    justify-content: center;
+    gap: 10px;
+}
+.team_icons_link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+}
+.team_icons_link:hover,
+.team_icons_link:focus {
+    background-color: var(--accent-color);
+}
+
+.team_icons_group {
+    width: 20px;
+    height: 20px;
+    fill: var(--social-icons);
+}
+.team_icons_link:hover .team_icons_group,
+.team_icons_link:focus .team_icons_group {
+    fill: var(--white-color);
 }
   /* ============================TEAM SECTION ==========================*/
 
