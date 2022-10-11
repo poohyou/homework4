@@ -287,8 +287,9 @@ a.nav_right_mail:hover {
 .team_group {
     display: flex;
     gap: 30px;
-    padding-bottom: 94px;
+    /* padding-bottom: 94px; */
 }
+
 .team_info {
     padding-top: 30px;
     padding-bottom: 30px;
