@@ -102,25 +102,17 @@ img {
     padding-bottom: 32px;
     padding-top: 32px;
 }
-.nav_mid_st{
+.nav_mid_active{
     color: var(--accent-color);
 }
 /* nav mid portfolio */
-.nav_mid_if_st ,.nav_mid_if_kontact{
-    text-decoration: none;
-    color: var(--title-text-color);
-}
-.nav_mid_if_portfolio{
-    text-decoration: none;
-    color: var(--accent-color);
-}
 .nav_mid {
     display: flex;
 }
 a.nav_mid_st{
     text-decoration: none;
 }
-.nav_mid_portfolio ,.nav_mid_kontact{
+.nav_mid_st ,.nav_mid_portfolio ,.nav_mid_kontact{
     text-decoration: none;
     list-style: none;
     color: var(--title-text-color);
@@ -157,11 +149,12 @@ a.nav_mid_st{
     gap: 10px;
 }
 .icon_nav_right_mail {
-    fill: var(--primary-text-color)
+    fill: var(--primary-text-color);
     border: 24px;
     width: 16px;
     height: 12px;
 }
+
 .icon_nav_right_mail:hover {
     fill: var(--accent-color);
 }
@@ -172,6 +165,7 @@ a.nav_right_mail{
 a.nav_right_mail:hover {
     color: var(--accent-color);
 }
+
 .nav_right_number{
     display: flex;
     flex-direction: row-reverse;
