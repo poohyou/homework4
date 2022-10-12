@@ -156,14 +156,16 @@ a.nav_mid_st{
 .nav_right_mail_group {
     display: block;
 }
-.icon_nav_right_mail:hover {
+.icon_nav_right_mail:hover,
+.icon_nav_right_mail:focus {
     fill: var(--accent-color);
 }
 a.nav_right_mail{
     text-decoration: none;
     color: var(--primary-text-color);
 }
-a.nav_right_mail:hover {
+a.nav_right_mail:hover,
+a.nav_right_mail:focus {
     color: var(--accent-color);
 }
 
@@ -176,14 +178,16 @@ a.nav_right_mail:hover {
 .nav_right_num_color {
     color: var(--primary-text-color);
 }
-.nav_right_num_color:hover {
+.nav_right_num_color:hover,
+.nav_right_num_color:focus {
     color: #2196F3;
 }
 .icon-smartphone {
     margin-right: 10px;
     fill: var(--primary-text-color);
 }
-.icon-smartphone:hover {
+.icon-smartphone:hover,
+.icon-smartphone:focus {
     fill: var(--accent-color);
 }
  /* ==========================HEADER SECTION=============================== */
@@ -378,7 +382,8 @@ a.nav_right_mail:hover {
     width: 170px;
     height: 92px;
 }
-.client_img:hover {
+.client_img:hover,
+.client_img:focus {
     fill: var(--accent-color);
 }
   /* ===========================OUR CLIENTS ===========================*/
@@ -422,7 +427,7 @@ a.nav_right_mail:hover {
     margin-right: 70px;
 }
 .footer_block_socials {
-    padding-top: 72px;
+    padding-top: 12px;
 }
 .address_address:not(:last-child) {
     margin-bottom: 9px;
@@ -446,7 +451,8 @@ a.nav_right_mail:hover {
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
 }
-.footer_title_img:hover {
+.footer_title_img:hover,
+.footer_title_img:focus {
     background-color: var(--accent-color);
 }
 /* =======================FOOTER SECTION========================/ */
@@ -472,7 +478,8 @@ a.nav_right_mail:hover {
     font-size: 16px;
     line-height: 1.62;
 }
-.p_button:hover {
+.p_button:hover,
+.p_button:focus {
     background-color: var(--accent-color);
     color: var(--white-color);
 }
