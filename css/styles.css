@@ -389,22 +389,24 @@ a.nav_right_mail:focus {
 }
 .client_img_block {
     display: flex;
-    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;   
     
 }
 
 .client_img {
     padding-left: 32px;
     padding-right: 32px;
-    padding-bottom: 16px;
-    padding-top: 16px;
-    padding-right: 32px;
+    width: 170px;
+    height: 92px;
     fill: var(--social-icons);
     display: flex;
     justify-content: center;
     align-items: center;
-   
+    border: 1px solid #AFB1B8 
 }
+
 .client_img:hover,
 .client_img:focus {
     fill: var(--accent-color);
