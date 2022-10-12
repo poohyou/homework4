@@ -384,24 +384,45 @@ a.nav_right_mail:hover {
   /* ===========================OUR CLIENTS ===========================*/
 
 /*================================ FOOTER SECTION/ ====================*/
-.footer {
-    height: 252px;
+           
+.footer_conteiner {
     background-color: var(--bckground-color);
-}            
-                  
+    width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+}       
+.footer_conteiner_flex {
+    display: flex;
+    padding-bottom: 60px;
+    padding-top: 60px;
+}     
 
 .logo-studio_footer {
-    color: var(--white-color);   
-    padding-top: 60px;
+    color: var(--white-color);  
     margin-bottom: 20px;
 }
+.footer_img_flex {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+.footer_title_h {
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--white-color);
+
+}
+
 .address_info {
     width: 231px;
-    padding-bottom: 60px;
     font-size: 14px;
     line-height: 1.7;
     font-style: normal;
     display: block;
+    margin-right: 70px;
+}
+.footer_block_socials {
+    padding-top: 72px;
 }
 .address_address:not(:last-child) {
     margin-bottom: 9px;
@@ -414,6 +435,19 @@ a.nav_right_mail:hover {
 }
 .address_phone {
     color: rgba(255, 255, 255, 0.6);
+}
+.footer_title_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    fill: var(--white-color);
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+}
+.footer_title_img:hover {
+    background-color: var(--accent-color);
 }
 /* =======================FOOTER SECTION========================/ */
 
