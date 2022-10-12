@@ -396,12 +396,14 @@ a.nav_right_mail:focus {
 .client_img {
     padding-left: 32px;
     padding-right: 32px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    padding-right: 32px;
     fill: var(--social-icons);
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 170px;
-    height: 92px;
+   
 }
 .client_img:hover,
 .client_img:focus {
