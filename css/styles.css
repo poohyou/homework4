@@ -158,49 +158,35 @@ a.nav_mid_st{
 .nav_right {
     display: flex;
     margin-left: auto;
-    gap: 50px;
-    
+    gap: 50px;   
 }
 
-.nav_right_logo_mail {
-    display: flex;
-    align-items: center;
-}
 .icon_nav_right_mail {
     fill: var(--primary-text-color);
     border: 24px;
-    margin-right: 10px;
-    
+    margin-right: 10px;  
 }
-.nav_right_mail_group {
-    display: block;
-}
+
 .icon_nav_right_mail:hover,
 .icon_nav_right_mail:focus {
     fill: var(--accent-color);
 }
+
 a.nav_right_mail{
     text-decoration: none;
     color: var(--primary-text-color);
 }
+
 a.nav_right_mail:hover,
 a.nav_right_mail:focus {
     color: var(--accent-color);
 }
 
-
-
 .nav_right_number_group {
     display: flex;
     justify-self: center;
 }
-.nav_right_num_color {
-    color: var(--primary-text-color);
-}
-.nav_right_num_color:hover,
-.nav_right_num_color:focus {
-    color: #2196F3;
-}
+
 .icon-smartphone {
     margin-right: 10px;
     fill: var(--primary-text-color);
@@ -208,6 +194,14 @@ a.nav_right_mail:focus {
 .icon-smartphone:hover,
 .icon-smartphone:focus {
     fill: var(--accent-color);
+}
+
+.nav_right_num_color {
+    color: var(--primary-text-color);
+}
+.nav_right_num_color:hover,
+.nav_right_num_color:focus {
+    color: #2196F3;
 }
  /* ==========================HEADER SECTION=============================== */
 
@@ -328,7 +322,6 @@ a.nav_right_mail:focus {
     padding-top: 30px;
     text-align: center;
     background-color: var(--white-color);
-
 }
 
 .team_name{
@@ -351,6 +344,7 @@ a.nav_right_mail:focus {
     justify-content: center;
     gap: 10px;
 }
+
 .team_icons_link {
     display: flex;
     justify-content: center;
