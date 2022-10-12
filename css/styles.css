@@ -390,7 +390,9 @@ a.nav_right_mail:focus {
 .client_img_block {
     display: flex;
     gap: 30px;
+    
 }
+
 .client_img {
     padding-left: 32px;
     padding-right: 32px;
