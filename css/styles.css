@@ -352,6 +352,37 @@ a.nav_right_mail:hover {
 }
   /* ============================TEAM SECTION ==========================*/
 
+  /* ===========================OUR CLIENTS ===========================*/
+.clients_title {
+    font-size: 36px;
+    line-height: 1.2;
+    display: block;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.client_conteiner {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.client_img_block {
+    display: flex;
+    gap: 30px;
+}
+.client_img {
+    padding-left: 32px;
+    padding-right: 32px;
+    fill: var(--social-icons);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+}
+.client_img:hover {
+    fill: var(--accent-color);
+}
+  /* ===========================OUR CLIENTS ===========================*/
+
 /*================================ FOOTER SECTION/ ====================*/
 .footer {
     height: 252px;
